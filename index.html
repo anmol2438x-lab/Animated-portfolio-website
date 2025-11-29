@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anmol's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <h2 class="logo">Anmol<span>.</span></h2>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="home-text" data-animate="fade">
+        <h1>Hello, I'm <span>Anmol</span></h1>
+        <p class="tagline">Frontend Developer • UI Designer • Coder</p>
+        <a href="#projects" class="btn">Explore Projects</a>
+      </div>
+
+      <div class="home-img" data-animate="fade">
+        <img src="Picsart_25-11-19_20-32-45-609.png" alt="profile" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2 class="title" data-animate="up">About Me</h2>
+      <p class="about-text" data-animate="up">
+        Dedicated and detail-oriented BCA student at Amity University, Noida,
+        passionate about technology and data. Seeking an entry-level opportunity
+        in IT support, data entry, or web design, where I can apply my technical
+        skills and grow professionally
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2 class="title" data-animate="up">Skills</h2>
+
+      <div class="skills-container">
+        <div class="skill" data-animate="left">
+          <p>MS Office: Word, Excel, PowerPoint, Mail Merge</p>
+          <div class="bar"><span style="width: 95%"></span></div>
+        </div>
+
+        <div class="skill" data-animate="left">
+          <p>Typing and Data Entry: Speed, Accuracy, Data Cleaning</p>
+          <div class="bar"><span style="width: 90%"></span></div>
+        </div>
+
+        <div class="skill" data-animate="left">
+          <p>Web Design: HTML, CSS, Basic JavaScript</p>
+          <div class="bar"><span style="width: 80%"></span></div>
+        </div>
+        <div class="skill" data-animate="left">
+          <p>Tools: Microsoft 365, Canva, Google Workspace</p>
+          <div class="bar"><span style="width: 80%"></span></div>
+        </div>
+        <div class="skill" data-animate="left">
+          <p>Soft Skills: Communication, Customer Support, Time Management</p>
+          <div class="bar"><span style="width: 80%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2 class="title" data-animate="up">Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card" data-animate="fade">
+          <h3>Amazon Clone</h3>
+          <p>
+            Static homepage using HTML and CSS with navigation and product grid.
+          </p>
+        </div>
+
+        <div class="project-card" data-animate="fade">
+          <h3>Portfolio Design</h3>
+          <p>Beautiful UI and smooth animations.</p>
+        </div>
+
+        <div class="project-card" data-animate="fade">
+          <h3>Flipkart Clone</h3>
+          <p>
+            Basic Ul using HTML and CSS focusing on layout and responsiveness.
+          </p>
+        </div>
+
+        <div class="project-card" data-animate="fade">
+          <h3>Excel Dashboard</h3>
+          <p>Data analysis sheet using PivotTables and Excel charts.</p>
+        </div>
+
+        <div class="project-card" data-animate="fade">
+          <h3>Advanced Attendance Sheet</h3>
+          <p>Attendance tracker using Excel formulas and automation.</p>
+        </div>
+
+        <div class="project-card" data-animate="fade">
+          <h3>Invoice Generator</h3>
+          <p>Auto-calculating invoice sheet with GST using Excel.</p>
+        </div>
+
+        <div class="project-card" data-animate="fade">
+          <h3>Registration and Feedback Forms</h3>
+          <p>Designed fillable forms in Excel.</p>
+        </div>
+
+        <div class="project-card" data-animate="fade">
+          <h3>Solar System Animation</h3>
+          <p>Interactive model using HTML, CSS, and basic JavaScript.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2 class="title" data-animate="up">Contact Me</h2>
+
+      <form id="contact-form" class="contact-box" data-animate="fade">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea
+          id="message"
+          placeholder="Message"
+          rows="5"
+          required
+        ></textarea>
+        <button class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
